@@ -1,0 +1,39 @@
+#navbar{
+padding: 10px;
+
+}
+
+
+.reg-container{
+display: grid;
+background: url(../img/reg-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+resize: both;
+min-height: 100vh;
+place-items: center;
+}
+
+#regbtn{
+background: blue;
+color: #fff;
+height: 50px;
+cursor: pointer;
+font-size: 20px;
+outline: none;
+}
+
+@media(max-width:1440px){
+form hr{
+margin: 0;
+}
+
+.signbox-header{
+margin: 0;
+}
+
+.signbox-header a{
+margin: 0;
+}
+}
