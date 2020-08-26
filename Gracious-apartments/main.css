@@ -227,6 +227,7 @@ height: 30px;
 main{
 min-height: 100vh;
 margin-bottom: 50px;
+content-visibility:auto;
 }
 
 
